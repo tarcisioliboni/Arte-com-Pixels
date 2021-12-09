@@ -25,3 +25,13 @@
     padding: 25px;
     display: inline-block;
 }
+
+.pixel {
+    background-color: white;
+    padding: 40px;
+    border: solid black 1px;
+    display: inline-block;
+}
+
+
+
