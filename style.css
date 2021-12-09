@@ -1,3 +1,8 @@
+* {
+    text-align: center;
+   
+}
+
 #black {
     background-color: black;
     border: solid black 1px;
@@ -28,10 +33,10 @@
 
 .pixel {
     background-color: white;
-    padding: 40px;
+    height: 40px;
+    width: 40px;
     border: solid black 1px;
     display: inline-block;
 }
-
 
 
