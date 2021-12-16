@@ -3,6 +3,10 @@
    
 }
 
+article {
+    font-size: 0px;
+   }
+
 #black {
     background-color: black;
     border: solid black 1px;
@@ -39,4 +43,6 @@
     display: inline-block;
 }
 
-
+#color-palette {
+    margin-bottom: 25px;
+}
