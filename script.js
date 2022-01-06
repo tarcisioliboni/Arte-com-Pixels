@@ -26,3 +26,14 @@ function colorChange (event) {
 for (index = 0; index < pixel.length; index += 1) {
   pixel[index].addEventListener('click', colorChange);
 }
+
+//9
+let button = document.querySelector('#clear-board');
+
+function clear (event) {
+  for (index = 0; index < pixel.length; index += 1) {
+  pixel[index].style.backgroundColor = 'white';
+  }
+}
+
+button.addEventListener('click', clear); 
