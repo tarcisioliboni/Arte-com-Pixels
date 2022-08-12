@@ -1,9 +1,17 @@
-* {
+html {
+  background-image: url(./images/download.jpeg);
   text-align: center;
 }
 
-article {
-  font-size: 0 px;
+main {
+  margin-bottom: 20px;
+}
+
+#title {
+  color: rgb(199, 3, 137);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
 }
 
 #black {
@@ -11,6 +19,7 @@ article {
   border: solid black 1px;
   padding: 25px;
   display: inline-block;
+  border-radius: 50%;
 }
 
 #red {
@@ -18,6 +27,7 @@ article {
   border: solid black 1px;
   padding: 25px;
   display: inline-block;
+  border-radius: 50%;
 }
 
 #green {
@@ -25,6 +35,7 @@ article {
   border: solid black 1px;
   padding: 25px;
   display: inline-block;
+  border-radius: 50%;
 }
 
 #blue {
@@ -32,6 +43,7 @@ article {
   border: solid black 1px;
   padding: 25px;
   display: inline-block;
+  border-radius: 50%;
 }
 
 .pixel {
