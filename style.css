@@ -8,10 +8,10 @@ main {
 }
 
 #title {
-  color: rgb(199, 3, 137);
+  color: rgb(242, 5, 218);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 1000;
 }
 
 #black {
@@ -56,4 +56,10 @@ main {
 
 #color-palette {
   margin-bottom: 25px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
 }
