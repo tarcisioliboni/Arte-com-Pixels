@@ -9,52 +9,26 @@
 </head>
 <body>
     <header>
-        <h1 id="title">Paleta de Cores</h1>
+        <h1 id="title">Arte com Pixels</h1>
     </header>
     <main>
+			<div>
+				<h2 id="paletaText">Paleta de Cores</h2>
 				<section id="color-palette">
 					<div id="black" class="color selected"></div>
 					<div id="red" class="color"></div>
 					<div id="green" class="color"></div>
 					<div id="blue" class="color"></div>
 				</section>
-				<article>
-				<section id="pixel-board" class="pixels">
-					<div class="pixel"></div>
-					<div class="pixel"></div>
-					<div class="pixel"></div>
-					<div class="pixel"></div>
-					<div class="pixel"></div>
-				</section>
-				<section id="pixel-board" class="pixels">
-					<div class="pixel"></div>
-					<div class="pixel"></div>
-					<div class="pixel"></div>
-					<div class="pixel"></div>
-					<div class="pixel"></div>
-				</section>
-				<section id="pixel-board" class="pixels">
-					<div class="pixel"></div>
-					<div class="pixel"></div>
-					<div class="pixel"></div>
-					<div class="pixel"></div>
-					<div class="pixel"></div>
-				</section>
-				<section id="pixel-board" class="pixels">
-					<div class="pixel"></div>
-					<div class="pixel"></div>
-					<div class="pixel"></div>
-					<div class="pixel"></div>
-					<div class="pixel"></div>
-				</section>
-				<section id="pixel-board" class="pixels">
-					<div class="pixel"></div>
-					<div class="pixel"></div>
-					<div class="pixel"></div>
-					<div class="pixel"></div>
-					<div class="pixel"></div>
-				</section>
-			</article>
+			</div>
+			<div id="menu">
+				<h2 id="selecioneText">Selecione o tamanho da Tela de Pixels</h2>
+				<button onclick="startGame(5)" id="board-p">P</button>
+				<button onclick="startGame(8)" id="board-m">M</button>
+				<button onclick="startGame(14)" id="board-g">G</button>
+			</div>
+			<section id="pixel-board" class="pixels">
+			</section>
 	</main>
 	<button id="clear-board">Limpar</button>
   </body>
