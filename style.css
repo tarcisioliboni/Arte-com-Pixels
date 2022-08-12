@@ -7,11 +7,17 @@ main {
   margin-bottom: 20px;
 }
 
+header {
+  background-color: rgb(219, 17, 199);
+}
+
 #title {
-  color: rgb(242, 5, 218);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 50px;
   font-weight: 1000;
+  text-align: center;
 }
 
 #black {
