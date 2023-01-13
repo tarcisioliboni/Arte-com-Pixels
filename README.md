@@ -16,3 +16,9 @@ Foi implementada uma página web que contém uma paleta de cores funcional que p
 
 - Manipular o DOM;
 - Manipular o Javascript;
+
+-----
+
+## Crie sua própria arte :)
+
+https://tarcisioliboni.github.io/Arte-com-Pixels/
